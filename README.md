@@ -22,7 +22,7 @@ Write the C Program using Linux Process API - fork(), wait(), exec()
 Test the C Program for the desired output. 
 
 # PROGRAM:
-
+```
 ## C Program to create new process using Linux API system calls fork() and getpid() , getppid() and to print process ID and parent Process ID using Linux API system calls
 #include <stdio.h> #include <stdlib.h> #include <unistd.h>
 
@@ -37,6 +37,7 @@ if (pid == 0) {
     wait(NULL); 
 }
 }
+```
 
 
 
@@ -60,7 +61,7 @@ if (pid == 0) {
 
 
 ## C Program to execute Linux system commands using Linux API system calls exec() , exit() , wait() family
-
+```
 #include <stdio.h> #include <stdlib.h> #include <sys/types.h> #include <sys/wait.h> #include <unistd.h>
 
 int main() { int status;
@@ -97,7 +98,7 @@ printf("Done.\n");
 return 0;
 }
 
-
+```
 
 
 
